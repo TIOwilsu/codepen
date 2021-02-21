@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audio Player</title>
+    <script type="text/javascript" src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="content">
+      <div class="container">
+        <ul class="musics"></ul>
+      </div>
+      <div class="player">
+        <div class="controls controls-left">
+          <div class="controls-buttons">
+            <button class="button-back">
+              <div class="icon-iron">
+                <svg
+                  viewBox="0 0 24 24"
+                  preserveAspectRatio="xMidYMid meet"
+                  focusable="false"
+                  class="style-scope icon-iron"
+                >
+                  <g class="style-scope icon-iron">
+                    <path
+                      d="M6 6h2v12H6zm3.5 6l8.5 6V6z"
+                      class="style-scope icon-iron"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+            </button>
+            <button class="button-play-pause">
+              <div class="icon-iron">
+                <svg
+                  viewBox="0 0 24 24"
+                  preserveAspectRatio="xMidYMid meet"
+                  focusable="false"
+                  class="icon-iron"
+                >
+                  <g class="icon-iron">
+                    <path d="M8 5v14l11-7z" class="icon-iron"></path>
+                  </g>
+                </svg>
+              </div>
+              <div class="icon-iron">
+                <svg
+                  viewBox="0 0 24 24"
+                  preserveAspectRatio="xMidYMid meet"
+                  focusable="false"
+                  class="style-scope iron-icon"
+                  style="
+                    pointer-events: none;
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                  "
+                >
+                  <g class="style-scope iron-icon">
+                    <path
+                      d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"
+                      class="style-scope iron-icon"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+            </button>
+            <button class="button-next">
+              <div class="icon-iron">
+                <svg
+                  viewBox="0 0 24 24"
+                  preserveAspectRatio="xMidYMid meet"
+                  focusable="false"
+                  class="style-scope icon-iron"
+                >
+                  <g class="style-scope icon-iron">
+                    <path
+                      d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"
+                      class="style-scope icon-iron"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+            </button>
+          </div>
+          <p class="time"></p>
+        </div>
+        <div class="about">
+          <img class="about-img" alt="about-img" />
+          <div class="about-text">
+            <h5 class="about-title title"></h5>
+            <p class="about-desc"></p>
+          </div>
+        </div>
+        <div class="controls controls-right">
+          <button class="button-volume">Volume</button>
+          <button class="button-loop">Loop</button>
+          <button class="button-random">Random</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
